@@ -1,0 +1,45 @@
+element.style {
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* align-items: center; */
+    justify-content: center;
+}
+.padded-box {
+    padding: 40px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    min-width: 100%;
+    background-color: white;
+}
+:root {
+    --banner-bg-start: #fd5e6d;
+    --banner-bg-end: #ef5079;
+    --produce-gray: #e4e4e4;
+    --search-text-gray: #949494;
+    --search-gray: #f2f2f2;
+    --affil-gray: #909090;
+    --name-gray: #2b2b2b;
+    --other-name-gray: #444444;
+    --ranking-affil-gray: #989898;
+    --save-box-gray: #b1b1b1;
+    --checked-blue: #052ae2CC;
+    --a-rank: #fb4a8c;
+    --b-rank: #fc840c;
+    --c-rank: #ffc407;
+    --d-rank: #19b468;
+    --f-rank: #a6a6a4;
+    --no-rank: #707070;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
